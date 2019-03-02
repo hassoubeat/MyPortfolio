@@ -146,3 +146,12 @@ section h2.section-heading {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+footer {
+  padding: 20px 0;
+}
+
+.copyright {
+  font-family: 'Comfortaa', cursive;
+  color: #6794BD;
+}
