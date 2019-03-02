@@ -1,0 +1,148 @@
+header {
+  background-image: url("../img/top.JPG");
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+header .intro-text {
+  padding-top: 300px;
+  padding-bottom: 150px;
+}
+
+header .intro-text .intro-heading {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 100;
+  font-size:40px;
+  line-height: 85px;
+  margin-bottom: 50px;
+}
+
+.navbar-shrink {
+  background-color:#6794BD;
+}
+
+.navbar-brand {
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 1.5em;
+  color: pink;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+
+.nav-link {
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.nav-link.active {
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: pink;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.detail-area {
+  padding-top: 30px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+.bg-light-gray {
+  background-color: #f7f7f7;
+}
+
+section h2.section-heading {
+  font-family: 'Comfortaa', cursive;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.text-about {
+  color: #666666;
+  font-size: 15px;
+  line-height: 2.1;
+}
+
+.portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 25px;
+}
+
+.portfolio-item {
+  padding-top: 15px;
+}
+
+.img-responsive{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.pickup-img {
+  box-shadow: 1px 1px 4px #dddddd, -1px -1px 4px #dddddd;
+}
+
+.skill-area {
+  padding-top: 20px;
+}
+
+.timeline-area {
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.Londrina-font {
+  font-family: 'Londrina Shadow', cursive;
+}
+
+.Comfotaa-font {
+  font-family: 'Comfortaa', cursive;
+}
+
+.modal-title {
+  font-family: 'Comfortaa', cursive;
+}
+
+.modal-media-img{
+  max-width: 100px;
+}
+
+.card {
+  margin: 10px;
+}
+
+.card-title {
+  color: black;
+}
+
+.section-title {
+  font-family: 'Comfortaa', cursive;
+  color: black;
+}
+
+.tech-skill {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
