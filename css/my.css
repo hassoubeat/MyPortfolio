@@ -129,6 +129,11 @@ section h2.section-heading {
   max-width: 100px;
 }
 
+.picture-support-text {
+  color: #807e7e;
+  margin-top :10px;
+}
+
 .card {
   margin: 10px;
 }
