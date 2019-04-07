@@ -21,6 +21,11 @@
       <!-- Londrina+Shadow Google Font -->
       <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet">
 
+    <!-- favicon -->
+      <link rel="icon" type="image/vnd.microsoft.icon" href="./favicon.ico">
+      <link rel="apple-touch-icon" type="image/png" href="./apple-touch-icon-180x180.png">
+      <link rel="icon" type="image/png" href="./icon-192x192.png">
+
     <title>hassoubeat's portfolio</title>
   </head>
   <body data-spy="scroll" data-target="#navbarNav">
@@ -74,7 +79,7 @@
           <div class="alert alert-secondary wow rollIn" role="alert" data-wow-delay="0.4s" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.4s; animation-name: fadeIn;">
             <div class="wow rollIn" data-wow-delay="0.4s" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.4s; animation-name: fadeIn;">
               <p class="text-about">Name: hassoubeat(本名は変な名前)</p>
-              <p class="text-about">Age: 25</p>
+              <p class="text-about">Age: 26</p>
               <p class="text-about">Sex: Male</p>
               <p class="text-about">毎日生きるのが精一杯の意識低い系エンジニアもどき</p>
             </div>
@@ -94,8 +99,22 @@
       </div>
 
       <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="2.4s" style="visibility: visible; animation-duration: 2.4s; animation-delay: 0.3s; animation-name: fadeInUp;">
-          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+        <div class="col-sm-6 portfolio-item wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="2.4s" style="visibility: visible; animation-duration: 2.4s; animation-delay: 0.3s; animation-name: fadeInUp;">
+          <a href="#PortfolioModalLinkS" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+              </div>
+            </div>
+            <img src="./img/LinkS.png" class="img-responsive pickup-img" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>LinkS</h4>
+            <p class="text-muted">クラウドブックマークシェアWebアプリ</p>
+            <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#PortfolioModalLinkS">Detail...</button>
+          </div>
+        </div>
+        <div class="col-sm-6 portfolio-item wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="2.4s" style="visibility: visible; animation-duration: 2.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
+          <a href="#PortfolioModalSCP_Reader" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
               </div>
@@ -105,12 +124,11 @@
           <div class="portfolio-caption">
             <h4>SCP_Reader</h4>
             <p class="text-muted">物語を音読してくれるAlexaスキル</p>
-            <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#PortfolioModal1">Detail...</button>
+            <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#PortfolioModalSCP_Reader">Detail...</button>
           </div>
         </div>
-
-        <div class="col-md-4 col-sm-6 portfolio-item wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="2.4s" style="visibility: visible; animation-duration: 2.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
-          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+        <div class="col-sm-6 portfolio-item wow fadeInUp" data-wow-delay="0.9s" data-wow-duration="2.4s" style="visibility: visible; animation-duration: 2.4s; animation-delay: 0.9s; animation-name: fadeInUp;">
+          <a href="#PortfolioModalToyManager" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
               </div>
@@ -120,11 +138,11 @@
           <div class="portfolio-caption">
             <h4>ToyManager & ToyTalk</h4>
             <p class="text-muted">おもちゃ(inラズパイ)が予定をおしゃべりしてくれるアプリ</p>
-            <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#PortfolioModal2">Detail...</button>
+            <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#PortfolioModalToyManager">Detail...</button>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item wow fadeInUp" data-wow-delay="0.9s" data-wow-duration="2.4s" style="visibility: visible; animation-duration: 2.4s; animation-delay: 0.9s; animation-name: fadeInUp;">
-          <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+        <div class="col-sm-6 portfolio-item wow fadeInUp" data-wow-delay="1.2s" data-wow-duration="2.4s" style="visibility: visible; animation-duration: 2.4s; animation-delay: 1.2s; animation-name: fadeInUp;">
+          <a href="#PortfolioModalMyPortfolio" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
               </div>
@@ -134,7 +152,7 @@
           <div class="portfolio-caption">
             <h4>hassoubeat's Portfolio</h4>
             <p class="text-muted">このサイト</p>
-            <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#PortfolioModal3">Detail...</button>
+            <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#PortfolioModalMyPortfolio">Detail...</button>
           </div>
         </div>
       </div>
@@ -347,8 +365,113 @@
     </div>
   </footer>
 
-  <!-- Portfolio Modal 1 -->
-  <div class="modal fade" id="PortfolioModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<!-- PortfolioModalLinkS -->
+<div class="modal fade" id="PortfolioModalLinkS" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">LinkS(リンクス)</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-muted">
+          <div class="row">
+            <div class="col-lg-12">
+              自分の<b>ブックマークをワンクリックで公開できるRubyOnRails製Webアプリケーション</b>です。<br>
+              <br>
+              アレコレ説明するよりも実際に見てもらったほうがわかりやすいと思うのでどうぞ。<br>
+              <br>
+              <a href="https://links-share.xyz/users/1/folders/1" target="_blank">おすすめゲーム集</a><br>
+              <br>
+              <b>HTMLの勉強始めたいんだけど！</b>という弟にとりあえずこのページを見ておけばいいよというリンク集を連携した際に、<br>
+              ふと<b>ブックマークに一言添えられて簡単に公開ができるアプリ</b>が欲しいなーと思い立ったのがきっかけで作りました。<br>
+              <br>
+              ちょうど勉強中だったRailsで何かポートフォリオを作りたいと思っていたのもあり、都合がよかったです。<br>
+              <br>
+              <p></p>
+              <p></p>
+              <p></p>
+              LinkS ログイン画面<br>
+              <hr>
+              <img src="./img/LinkS_login.png" class="img-responsive pickup-img" alt="links_login">
+              <br>
+              LinkS ブックマークシェア画面<br>
+              <hr>
+              <img src="./img/LinkS_folder_share.png" class="img-responsive pickup-img" alt="links_folder_share">
+              <div class="picture-support-text">
+                未ログイン状態でも<a href="https://links-share.xyz/users/1/folders/1" target="_blank">公開されたブックマーク</a>を確認することができます。<br>
+                ※ ブックマークはフォルダーに紐付いて、フォルダー単位で公開・非公開が行われます。
+              </div>
+              <br>
+              <br>
+              LinkS ログイン後画面<br>
+              <hr>
+              <img src="./img/LinkS_TOP.png" class="img-responsive pickup-img" alt="links_top">
+              <div class="picture-support-text">
+                ログイン後、フォルダー・ブックマークを登録・編集できるようになります。
+              </div>
+              <br>
+              LinkS ログイン後画面(フォルダー編集)<br>
+              <hr>
+              <img src="./img/LinkS_edit_folder.png" class="img-responsive pickup-img" alt="links_edit_folder">
+              <div class="picture-support-text">
+                フォルダー名称・フォルダーの概要の他、フォルダーの公開・非公開の設定が可能です。<br>
+                公開したフォルダーはLINEなどのSNSへシェアできる他、直接URLを渡してシェアすることも可能です。
+              </div>
+              <br>
+              LinkS ログイン後画面(ブックマーク編集)<br>
+              <hr>
+              <img src="./img/LinkS_edit_bookmark.png" class="img-responsive pickup-img" alt="links_edit_bookmark">
+              <div class="picture-support-text">
+                ブックマークに対してコメントを残すことができます。<br>
+                リンク先の簡単な概要、自分の感想などを書いてシェアできます。
+              </div>
+              <br>
+              スマホレイアウト<br>
+              <hr>
+              <div class="row">
+                <div class="col-lg-4 col-12">
+                  <img src="./img/LinkS_sm_login.png" class="img-responsive pickup-img" alt="links_sm_login" style="margin-bottom:10px;">
+                </div>
+                <div class="col-lg-4 col-12">
+                  <img src="./img/LinkS_sm_sidebar.png" class="img-responsive pickup-img" alt="links_sm_sidebar" style="margin-bottom:10px;">
+                </div>
+                <div class="col-lg-4 col-12">
+                  <img src="./img/LinkS_sm_TOP.png" class="img-responsive pickup-img" alt="links_sm_TOP" style="margin-bottom:10px;">
+                </div>
+              </div>
+              <div class="picture-support-text">
+                レスポンシブデザインで実装しており、スマートフォンでも問題なく利用できます。<br>
+              </div>
+              <br>
+              <br>
+              上述した通り、Railsのポートフォリオとして作成しました。<br>
+              <br>
+              ...がRailsの機能が充実しているため、サーバ側はサクサク実装できてしまいました。(Railsすごい)<br>
+              <br>
+              Railsの学習になったのは勿論ですが、本格的にスマホ対応を意識して実装したため、UIの観点で多くのことが学べました。
+              <br>
+              <p></p>
+              <div class="alert alert-secondary" role="alert">
+                <p>制作期間：大体1ヶ月</p>
+                <p>技術要素：Ruby、RubyOnRails、jQuery、CSS3、Twitter Bootstrap、MySQL、Nginx、Redis、AWS Lightsail、Linux</p>
+                <p>ひとこと：Railsの生産性の高さに驚きました。サクッとWebアプリを作りたい時には最高ですね。</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+              <a class="btn" href="https://links-share.xyz" target="_blank" style="background-color: pink; color: white;"></i> LinkS</a>
+            <a class="btn btn-primary" href="https://github.com/hassoubeat/LinkS" target="_blank"><i class="fab fa-github"></i> Github</a>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal SCP_Reader -->
+  <div class="modal fade" id="PortfolioModalSCP_Reader" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -416,8 +539,8 @@
     </div>
   </div>
 
-  <!-- PortfolioModal2 -->
-  <div class="modal fade" id="PortfolioModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <!-- PortfolioModalToyManager -->
+  <div class="modal fade" id="PortfolioModalToyManager" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -464,7 +587,7 @@
               <p></p>
               <div class="alert alert-secondary" role="alert">
                 <p>制作期間：3〜4ヶ月</p>
-                <p>技術要素：Java、JavaEE7、MySQL、AWS EC2、Linux</p>
+                <p>技術要素：Java、JavaEE7、jQuery、Twitter Bootstrap、Apache、MySQL、AWS EC2、Linux、Rasbian</p>
                 <p>ひとこと：このアプリ開発を通して設計、開発、リリースまでの一通りの流れの作業をなんとなくできるようになりました。なんとなく。</p>
               </div>
             </div>
@@ -478,8 +601,8 @@
     </div>
   </div>
 
-  <!-- PortfolioModal3 -->
-  <div class="modal fade" id="PortfolioModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <!-- PortfolioModalMyPortfolio -->
+  <div class="modal fade" id="PortfolioModalMyPortfolio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -624,7 +747,8 @@
                 <div class="col-lg-10 col-md-12">
                   <p class="section-title d-inline d-lg-none">Ruby<br></p>
                   現在RubyOnRailsも含めて独学中。<br>
-                  ポートフォリオ用に何か作成予定です。<br>
+                  <s>ポートフォリオ用に何か作成予定です。</s><br>
+                  RailsでLinkSというWebアプリをポートフォリオとして作成しました。(Portfolio参照)<br>
                 </div>
               </div>
             </div>
